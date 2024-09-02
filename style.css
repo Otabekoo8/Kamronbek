@@ -1,0 +1,604 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/hero\ image\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header .container {
+  width: 1260px;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+}
+header nav .menu {
+  width: auto;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav .menu ul img {
+  width: 13px;
+  height: 13px;
+}
+header nav .menu ul li {
+  list-style: none;
+  padding: 0px 20px;
+}
+header nav .menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header nav .menu ul li a:hover {
+  color: #FF7400;
+}
+header nav .menu .leaf {
+  width: 2px;
+  height: 60px;
+  background-color: #fff;
+}
+header nav .menu .store {
+  margin-right: 30px;
+  align-items: center;
+  color: #fff;
+}
+header nav .menu .store img {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+header nav .menu .tell {
+  margin-left: 30px;
+}
+header nav .menu .tell .own {
+  width: 160px;
+  height: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+header nav .menu .tell .own h2 {
+  font-size: 18px;
+}
+header nav .menu .tell .own img {
+  width: 23px;
+  height: 23px;
+}
+header nav .menu .tell p {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+}
+header nav .menu button {
+  margin-left: 30px;
+  width: 165px;
+  height: 50px;
+  background-color: #FF7400;
+  color: #fff;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: none;
+}
+header nav .menu button:hover {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #FF7400;
+}
+header .inner {
+  margin-top: 120px;
+  width: 556px;
+  height: 179px;
+  text-align: center;
+  align-items: center;
+}
+header .inner h3 {
+  width: 500px;
+  height: 20px;
+  color: #D67E35;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+header .inner h1 {
+  margin-top: 20px;
+  width: 500px;
+  height: 40px;
+  color: #D67E35;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+header .inner .in {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+header .inner .one {
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+  margin-left: 100px;
+}
+header .inner .two {
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+}
+header .inner p {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+header .inner button {
+  width: 125px;
+  height: 40px;
+  margin-left: -70px;
+  background-color: #FF7400;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+}
+header .inner button:hover {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #FF7400;
+}
+header .blok {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 280px;
+}
+header .blok .one1 {
+  width: 290px;
+  height: 280px;
+  background-color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 10px 20px 15px rgba(0, 0, 0, 0.1019607843);
+}
+header .blok .one1 img {
+  margin-top: 20px;
+}
+header .blok .one1 h4 {
+  font-size: 26px;
+  color: #D67E34;
+}
+header .blok .one1 p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+header .blok .two2 {
+  width: 290px;
+  height: 288px;
+  background-color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 10px 20px 15px rgba(0, 0, 0, 0.1019607843);
+}
+header .blok .two2 img {
+  margin-top: 20px;
+}
+header .blok .two2 h4 {
+  font-size: 26px;
+  color: #D67E34;
+}
+header .blok .two2 p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+header .blok .three3 {
+  width: 300px;
+  height: 288px;
+  background-color: #FFFFFF;
+  text-align: center;
+  align-items: center;
+  box-shadow: 1px 10px 20px 15px rgba(0, 0, 0, 0.1019607843);
+}
+header .blok .three3 img {
+  margin-top: 20px;
+}
+header .blok .three3 h4 {
+  font-size: 26px;
+  color: #D67E34;
+}
+header .blok .three3 p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+header .blok .one1:hover {
+  width: 310px;
+  height: 300px;
+}
+header .blok .two2:hover {
+  width: 310px;
+  height: 300px;
+}
+header .blok .three3:hover {
+  width: 310px;
+  height: 300px;
+}
+
+section {
+  width: 100%;
+  height: 90vh;
+}
+section .other {
+  margin-top: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+section .other .text {
+  text-align: center;
+}
+section .other .text h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  color: #D67E35;
+}
+section .other .text p {
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 35px;
+}
+section .other .text .both {
+  display: flex;
+  justify-content: space-evenly;
+}
+section .other .text .both h2 {
+  font-size: 40px;
+  color: #D67E35;
+  padding: 30px;
+}
+section .other .text .both p {
+  font-size: 18px;
+}
+
+.section-2 {
+  width: 100%;
+  height: 50vh;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-2 .wind {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-2 .wind .wirtz {
+  text-align: center;
+  margin-top: 50px;
+}
+.section-2 .wind h1 {
+  color: #D67E35;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+.section-2 .wind p {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+.section-2 .wind button {
+  margin-left: 30px;
+  width: 165px;
+  height: 50px;
+  background-color: #FF7400;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: none;
+  margin-top: 70px;
+}
+.section-2 .wind button:hover {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #FF7400;
+}
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+}
+.section-3 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #D67E35;
+  margin-top: 150px;
+}
+.section-3 .lock {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+.section-3 .lock .cap2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: -130px;
+}
+.section-3 .lock .cap2 img {
+  padding: 4px;
+}
+.section-3 .lock .cap3 p {
+  font-size: 20px;
+  padding: 70px;
+}
+
+.section-4 {
+  width: 100%;
+  height: 110vh;
+  background-image: url(img/Mask\ Group\ \(4\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section-4 h1 {
+  font-size: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-4 .style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section-4 .style .werty {
+  width: 320px;
+  height: 480px;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 200px;
+}
+.section-4 .style .werty .img1 {
+  display: flex;
+}
+.section-4 .style .werty .img1 img {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 190px;
+}
+.section-4 .style .werty .img2 {
+  margin-top: 40px;
+}
+.section-4 .style .werty button {
+  width: 170px;
+  height: 40px;
+  background-color: #D67E34;
+  border: none;
+  color: #fff;
+}
+.section-4 .style .werty button:hover {
+  background-color: #fff;
+  color: black;
+  border: 2px solid #D67E35;
+}
+.section-4 .style .werty h2 {
+  padding: 10px;
+}
+
+.section-5 {
+  width: 100%;
+  height: 60vh;
+  background-color: #E5E5E5;
+}
+
+.message {
+  text-align: center;
+}
+.message p {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 50px;
+  line-height: 37px;
+}
+.message h3 {
+  font-size: 20px;
+  padding: 20px;
+}
+.message img {
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+}
+.message img:hover {
+  width: 150px;
+  height: 200px;
+}
+
+.section-6 {
+  width: 100%;
+  height: 100vh;
+}
+.section-6 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #D67E35;
+  margin-top: 50px;
+}
+.section-6 .grid-container {
+  width: 1400px;
+  height: 700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.section-6 .grid-container .grid-item1 {
+  background-image: url(img/Mask\ Group\ \(6\).png);
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.section-6 .grid-container .grid-item2 {
+  background-image: url(img/Mask\ Group\ \(7\).png);
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.section-6 .grid-container .grid-item3 {
+  background-image: url(img/Mask\ Group\ \(8\).png);
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.section-6 .grid-container .grid-item4 {
+  background-image: url(img/Mask\ Group\ \(7\).png);
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.section-6 .grid-container .grid-item5 {
+  background-image: url(img/Mask\ Group\ \(8\).png);
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.section-6 .grid-container .grid-item6 {
+  background-image: url(img/Mask\ Group\ \(6\).png);
+  background-position: center;
+  background-size: cover;
+  background-color: #E5E5E5;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.section-6 button {
+  width: 165px;
+  height: 50px;
+  background-color: #FF7400;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  margin-left: 680px;
+}
+.section-6 button:hover {
+  background-color: #fff;
+  color: black;
+  border: 2px solid #FF7400;
+}
+
+.contact {
+  width: 100%;
+  height: 700px;
+}
+.contact .contact-us {
+  width: 1080px;
+  height: 530px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7);
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 17px;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact .contact-us h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px auto;
+  color: #D67E34;
+}
+.contact .contact-us form div label {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.contact .contact-us form div input,
+.contact .contact-us textarea {
+  width: 1000px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.contact .contact-us textarea {
+  height: 140px;
+}
+.contact .contact-us form .sendBtn {
+  width: 100%;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: none;
+  background-color: #FF7400;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+footer {
+  box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.7);
+}
+footer .foot {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+footer .foot h4 {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
